@@ -3,7 +3,8 @@ import Image from "next/image";
 import cursor from "../assets/icon1.png";
 import lightning from "../assets/icon2.png";
 import { motion } from "framer-motion";
-import profilepic from "../assets/profilepic.png";
+import profilepic from "../assets/Memoji1.png";
+
 
 const Hero = () => {
     return (
@@ -49,9 +50,9 @@ const Hero = () => {
             <Image
                 src={profilepic}
                 alt="profile picture"
-                className="h-auto w-auto mx-auto"
+                className="w-auto h-auto mx-auto"
             />
-            {/* </div> */}
+
 
         </div>
     )

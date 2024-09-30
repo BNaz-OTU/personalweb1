@@ -16,17 +16,25 @@ const About = () => {
 
             <div className='px-6 md:p-0 grid md:grid-cols-8 gap-6 place-items-center'>
 
+                {/* FIRST BOX */}
                 <div className='w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                     <div className='flex flex-row p-6'>
                         <Image src={book} alt="book" className="w-auto h-[130px]" />
                         <div className='flex flex-col mt-4'>
-                            <h2 className='text-2xl font-bold text-white/80'>xxxx</h2>
-                            <p className='text-lg text-white/70 mt-2'>xxxx</p>
+                            <h2 className='text-2xl font-bold text-white/80'>
+                                Education
+                            </h2>
+                            <p className='text-lg text-white/70 mt-2'>
+                                Ontario Tech University <br />
+                                Bachelor of Science in Computer Science, Co-op, Data Science Specialization <br />
+                                Artificial Intelligence, Analysis and Design of Algorithms, Scientific Data Analysis
+                            </p>
                         </div>
                     </div>
                 </div>
 
+                {/* SECOND BOX */}
                 <div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                     <div className='flex flex-row p-6'>
@@ -38,6 +46,7 @@ const About = () => {
                     </div>
                 </div>
 
+                {/* THIRD BOX */}
                 <div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                     <div className='flex flex-row p-6'>
@@ -49,6 +58,7 @@ const About = () => {
                     </div>
                 </div>
 
+                {/* FOURTH BOX */}
                 <div className='w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                     <div className='flex flex-row p-6'>

@@ -14,18 +14,16 @@ const Contact = () => {
                         rounded-lg space-y-8 lg:space-y-0 lg:space-x-8' id='contact'>
                 <div className='flex justify-center items-center'>
                     <ul className='space-y-4'>
-                        <li className='flex items-center'>
+                        {/* <li className='flex items-center'>
                             <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6' />
                             <p className='text-xl'>+989 989 89 99</p>
-                        </li>
-                        <li className='flex items-center'>
+                        </li> */}
+                        <li className='flex place-items-center'>
                             <Image src={mail} alt="mail" className='h-[110px] w-auto mr-6' />
-                            <p className='text-xl'>johndoe@test.com</p>
+                            <p className='text-xl'>bilal.nazar@ontariotechu.net</p>
                         </li>
                     </ul>
                 </div>
-
-                {/* <p>{apiKey}</p> */}
 
                 <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
                     <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let's connect</h2>
