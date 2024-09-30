@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 const navLinks = [
     { title: "About", path: "#about" },
     { title: "Portfolio", path: "#portfolio" },
+    { title: "GitHub", path: "https://github.com/BNaz-OTU" }
 ];
 
 const Navbar = () => {

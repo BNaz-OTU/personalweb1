@@ -12,51 +12,51 @@ import proj6 from "../assets/NewProj6.png";
 
 const projects = [
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "YOOM",
+        desc: "Developed a video communication platform that allows users to conduct meetings, record meetings, screen share, manage participants and much more.",
+        devStack: "Next.JS | TypeScript | Tailwind | CSS | HTML | JavaScript",
+        link: "https://bn-zoom-clone.vercel.app/",
+        git: "https://github.com/BNaz-OTU/BN-ZOOM-clone",
         src: proj1
     },
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "LiveDocs",
+        desc: "Engineered an online word processor that leverages real-time collaborative features akin to those found in Google Docs, enhancing simultaneous multi-user editing and interaction.",
+        devStack: "Next.JS | TypeScript | JavaScript | Tailwind CSS | HTML | LiveBlocks | Lexical Editor | ShadCN",
+        link: "https://bn-live-docs.vercel.app/",
+        git: "https://github.com/BNaz-OTU/BN_Live_Docs",
         src: proj2
     },
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "Hotel Management Project",
+        desc: "Collaborating with a team of five students, we developed a comprehensive system/application to manage the daily operations of a hotel.",
+        devStack: "Java | Maven | Spring Boot | H2 | Spring Data JPA | ThymleLeaf | HTML | CSS",
+        link: "https://drive.google.com/file/d/1lNEvZy95et4TXu6dPgeJXw4l95Sj5X8T/view",
+        git: "https://github.com/BNaz-OTU/HotelManagementProject",
         src: proj3
     },
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "Image to ASCII",
+        desc: "Built a Python application that facilitates the conversion of images into ASCII art, allowing users to transform any selected image into a text-based visual representation.",
+        devStack: "Python",
+        link: "https://github.com/BNaz-OTU/IMG_to_ASCII",
+        git: "https://github.com/BNaz-OTU/IMG_to_ASCII",
         src: proj4
     },
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "NASA Astronomy Picture of the Day",
+        desc: "Constructed a React application that integrates with the NASA API, leveraging its data to deliver a dynamic user experience.",
+        devStack: "React.JS | HTML | CSS | JavaScript",
+        link: "https://bn-nasa-apod-react-proj.netlify.app/",
+        git: "https://github.com/BNaz-OTU/bn-nasa-react-proj",
         src: proj5
     },
     {
-        title: "XXX XXX",
-        desc: "xjxjxjxj xjxjxjxj",
-        devStack: "xjxjxjxj xjxjxjxj",
-        link: "#",
-        git: "#",
+        title: "Basketball Data Analysis",
+        desc: "Utilized Python and its various libraries such as Numpy, Scipy and Matplotlib to analyze basketball data.",
+        devStack: "Python | Jupyter Notebook | Numpy | Scipy | Pandas | Matplotlib | Markdown",
+        link: "https://github.com/BNaz-OTU/basketball-data-analysis",
+        git: "https://github.com/BNaz-OTU/basketball-data-analysis",
         src: proj6
     },
 ]

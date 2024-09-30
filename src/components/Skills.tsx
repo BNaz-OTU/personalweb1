@@ -3,6 +3,9 @@ import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPython, FaJava, FaGit, FaLin
 import { SiTypescript } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { VscVscode } from "react-icons/vsc";
+import { Cplusplus } from "../assets/Cplusplus.svg";
+
+const Cplus = <img src="../assets/Cplusplus.svg" alt="C++ Icon"></img>
 
 const skillIcons = [
     { icon: <FaHtml5 size={140} />, label: "HTML" },
@@ -10,6 +13,7 @@ const skillIcons = [
     { icon: <FaReact size={140} />, label: "React" },
     { icon: <FaJsSquare size={140} />, label: "JavaScript" },
     { icon: <FaPython size={140} />, label: "Python" },
+    { icon: <img src="../assets/Cplusplus.svg" alt="C++ Icon" />, label: "C++" },
     { icon: <BiLogoTypescript size={140} />, label: "TypeScript" },
     { icon: <FaJava size={140} />, label: "Java" },
     { icon: <FaGit size={140} />, label: "Git" },
