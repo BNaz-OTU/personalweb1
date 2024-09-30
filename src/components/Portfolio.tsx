@@ -2,9 +2,12 @@
 import React from 'react'
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import proj1 from "../assets/proj1.jpg";
-import proj2 from "../assets/proj2.jpg";
-import proj3 from "../assets/proj3.png";
+import proj1 from "../assets/NewProj1.png";
+import proj2 from "../assets/NewProj2.png";
+import proj3 from "../assets/NewProj3.png";
+import proj4 from "../assets/NewProj4.png";
+import proj5 from "../assets/NewProj5.png";
+import proj6 from "../assets/NewProj6.png";
 
 
 const projects = [
@@ -31,6 +34,30 @@ const projects = [
         link: "#",
         git: "#",
         src: proj3
+    },
+    {
+        title: "XXX XXX",
+        desc: "xjxjxjxj xjxjxjxj",
+        devStack: "xjxjxjxj xjxjxjxj",
+        link: "#",
+        git: "#",
+        src: proj4
+    },
+    {
+        title: "XXX XXX",
+        desc: "xjxjxjxj xjxjxjxj",
+        devStack: "xjxjxjxj xjxjxjxj",
+        link: "#",
+        git: "#",
+        src: proj5
+    },
+    {
+        title: "XXX XXX",
+        desc: "xjxjxjxj xjxjxjxj",
+        devStack: "xjxjxjxj xjxjxjxj",
+        link: "#",
+        git: "#",
+        src: proj6
     },
 ]
 
@@ -64,7 +91,7 @@ const Portfolio = () => {
 
                         <div className='flex justify-center items-center'>
                             <Image src={project.src} alt={project.title}
-                                className="h-[350px] w-[500px] object-cover border rounded border-gray-700" />
+                                className="h-auto w-auto object-cover border rounded border-gray-700" />
                         </div>
 
                     </motion.div>

@@ -1,11 +1,23 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPython, FaJava, FaGit, FaLinux, FaWindows, FaApple } from 'react-icons/fa';
+import { SiTypescript } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { VscVscode } from "react-icons/vsc";
 
 const skillIcons = [
     { icon: <FaHtml5 size={140} />, label: "HTML" },
     { icon: <FaCss3Alt size={140} />, label: "CSS" },
     { icon: <FaReact size={140} />, label: "React" },
     { icon: <FaJsSquare size={140} />, label: "JavaScript" },
+    { icon: <FaPython size={140} />, label: "Python" },
+    { icon: <BiLogoTypescript size={140} />, label: "TypeScript" },
+    { icon: <FaJava size={140} />, label: "Java" },
+    { icon: <FaGit size={140} />, label: "Git" },
+    { icon: <FaLinux size={140} />, label: "Linux" },
+    { icon: <FaWindows size={140} />, label: "Windows" },
+    { icon: <FaApple size={140} />, label: "MacOs" },
+    { icon: <VscVscode size={140} />, label: "Visual Studio Code" },
+
 ]
 
 const Skills = () => {
