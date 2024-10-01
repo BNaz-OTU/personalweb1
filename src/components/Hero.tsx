@@ -44,7 +44,7 @@ const Hero = () => {
 
 
             <p className="text-center text-x max-w-[500px] mx-auto mt-8 text-white/80">
-                I am a full-stack developer focused on creating websites that provide the best experience for users.
+                I am an aspiring Software Engineer, interested in anything related to Software Development, Software Security, Machine Learning, Artificial Intelligence and Data Analysis.
             </p>
 
             <Image
