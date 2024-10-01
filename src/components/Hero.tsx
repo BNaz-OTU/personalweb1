@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import cursor from "../assets/icon1.png";
-import lightning from "../assets/icon2.png";
+import cursor from "../assets/icons/icon1.png";
+import lightning from "../assets/icons/icon2.png";
 import { motion } from "framer-motion";
-import profilepic from "../assets/Memoji1.png";
+import profilepic from "../assets/icons/Memoji1.png";
 
 
 const Hero = () => {

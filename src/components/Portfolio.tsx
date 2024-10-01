@@ -2,12 +2,12 @@
 import React from 'react'
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import proj1 from "../assets/NewProj1.png";
-import proj2 from "../assets/NewProj2.png";
-import proj3 from "../assets/NewProj3.png";
-import proj4 from "../assets/NewProj4.png";
-import proj5 from "../assets/NewProj5.png";
-import proj6 from "../assets/NewProj6.png";
+import proj1 from "../assets/projects/NewProj1.png";
+import proj2 from "../assets/projects/NewProj2.png";
+import proj3 from "../assets/projects/NewProj3.png";
+import proj4 from "../assets/projects/NewProj4.png";
+import proj5 from "../assets/projects/NewProj5.png";
+import proj6 from "../assets/projects/NewProj6.png";
 
 
 const projects = [

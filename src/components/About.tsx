@@ -2,10 +2,10 @@
 import React from 'react';
 import Image from "next/image";
 import aboutImg from "../assets/profilepic.png";
-import book from "../assets/book.png";
-import pc from "../assets/pc.png"
-import card from "../assets/card.png";
-import finance from "../assets/finance.png"
+import book from "../assets/icons/book.png";
+import pc from "../assets/icons/pc.png"
+import card from "../assets/icons/card.png";
+import finance from "../assets/icons/finance.png"
 
 
 const About = () => {
