@@ -22,14 +22,14 @@ const skillIcons = [
     { icon: <FaReact size={140} />, label: "React" },
     { icon: <FaJsSquare size={140} />, label: "JavaScript" },
     { icon: <FaPython size={140} />, label: "Python" },
-    { icon: <Image src={Cplusplus} className="w-auto h-[130px]" />, label: "C++" },
-    { icon: <Image src={matlab} className="w-auto h-[130px]" />, label: "MATLAB" },
-    { icon: <Image src={nextJ} className="w-auto h-[130px]" />, label: "Next.JS" },
-    { icon: <Image src={jQuery} className="w-auto h-[130px]" />, label: "jQuery" },
-    { icon: <Image src={maven} className="w-auto h-[130px]" />, label: "Maven" },
-    { icon: <Image src={mySQL} className="w-auto h-[130px]" />, label: "MySQL" },
-    { icon: <Image src={postg} className="w-auto h-[130px]" />, label: "PostgreSQL" },
-    { icon: <Image src={springb} className="w-auto h-[130px]" />, label: "Spirng Boot" },
+    { icon: <Image src={Cplusplus} className="w-auto h-[100px] md:h-[140px]" />, label: "C++" },
+    { icon: <Image src={matlab} className="w-auto h-[100px] md:h-[140px]" />, label: "MATLAB" },
+    { icon: <Image src={nextJ} className="w-auto h-[100px] md:h-[140px]" />, label: "Next.JS" },
+    { icon: <Image src={jQuery} className="w-auto h-[100px] md:h-[140px]" />, label: "jQuery" },
+    { icon: <Image src={maven} className="w-auto h-[100px] md:h-[140px]" />, label: "Maven" },
+    { icon: <Image src={mySQL} className="w-auto h-[100px] md:h-[140px]" />, label: "MySQL" },
+    { icon: <Image src={postg} className="w-auto h-[100px] md:h-[140px]" />, label: "PostgreSQL" },
+    { icon: <Image src={springb} className="w-auto h-[100px] md:h-[140px]" />, label: "Spirng Boot" },
     { icon: <BiLogoTypescript size={140} />, label: "TypeScript" },
     { icon: <FaJava size={140} />, label: "Java" },
     { icon: <FaGit size={140} />, label: "Git" },
@@ -42,13 +42,13 @@ const skillIcons = [
 const Skills = () => {
     return (
         <div className='bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-32'>
-            <div className='text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center'>
+            <div className='text-white w-[400px] md:min-w-[950px] mx-auto text-center'>
                 <h2 className='text-6xl font-bold mb-12'>What I Do</h2>
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                     {skillIcons.map((skill, index) => (
                         <div
                             key={index}
-                            className='h-[160px] w-[160px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+                            className='h-[160px] w-[160px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl mb-1'>
                             {skill.icon}
                             <p className='mt-2'>{skill.label}</p>
                         </div>
