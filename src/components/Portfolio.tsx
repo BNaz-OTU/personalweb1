@@ -63,11 +63,11 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-40' id="portfolio">
+        <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-[10px] mt-40' id="portfolio">
 
             <h1 className='text-orange-400 text-6xl max-w-[320px] mx-auto font-semibold my-12 text-center'>Projects</h1>
 
-            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-40 space-y-24'>
+            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-40'>
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -75,23 +75,29 @@ const Portfolio = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.25 }}
-                        className={`mt-12 flex flex-col ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row"}`}
+                        className='my-[150px]'
                     >
-                        <div className="space-y-2 max-w-[550px]">
-                            <h2 className='text-7xl my-4 text-white/70'>{`0${index + 1}`}</h2>
-                            <h2 className='text-4xl'>{project.title}</h2>
-                            <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
-                            <p className='text-xl text-orange-400 font-semibold'>{project.devStack}</p>
-                            <div className="w-64 h-[1px] bg-gray-400 my-4">
-                                <a href={project.link} className="mr-6">Link</a>
-                                <a href={project.git}>Git</a>
+                        <div className={`my-8 flex flex-col ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row gap-12"}`}>
+                            <div className="space-y-4 max-w-[550px]">
+                                <h2 className='text-7xl my-4 text-white/70'>{`0${index + 1}`}</h2>
+                                <h2 className='text-4xl'>{project.title}</h2>
+                                <p className='text-md text-white/70 break-words'>{project.desc}</p>
                             </div>
 
+                            <div className='flex justify-center'>
+                                <Image src={project.src} alt={project.title}
+                                    className="h-auto w-auto object-cover border rounded border-gray-700" />
+                            </div>
                         </div>
 
-                        <div className='flex justify-center items-center'>
-                            <Image src={project.src} alt={project.title}
-                                className="h-auto w-auto object-cover border rounded border-gray-700" />
+                        <div className={`${index % 2 === 1 ? "md:text-right" : "md:text-left"}`}>
+                            <p className='text-md text-orange-400 font-semibold'>{project.devStack}</p>
+                            <div className="w-auto h-[2px] bg-gray-400 mt-2 mb-1">
+                                {/* <a href={project.link} className="mr-6">Link</a>
+                                <a href={project.git}>Git</a> */}
+                            </div>
+                            <a href={project.link} className="mr-6">Link</a>
+                            <a href={project.git}>Git</a>
                         </div>
 
                     </motion.div>
