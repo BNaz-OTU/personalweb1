@@ -39,26 +39,35 @@ const Navbar = () => {
     }
 
     return (
-        <div className="text-white/70 pt-6">
+        <div className="text-white/60 pt-6">
 
-            <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]">
+            <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[450px]">
                 <ul className="flex flex-row p-4 space-x-8">
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <Link href={link.path}>
-                                <p>{link.title}</p>
+                                <div className="group">
+                                    <p className="text-lg hover:text-white/100">{link.title}</p>
+                                    <div className="relative">
+                                        <div className="absolute w-2/6 h-1 transition-all rounded-full duration-700 group-hover:bg-orange-400 group-hover:w-full"></div>
+
+                                        <div className="mt-1 absolute w-1/6 h-1 transition-all rounded-full duration-[1400ms]
+                                group-hover:bg-orange-600 group-hover:w-full"></div>
+                                    </div>
+                                </div>
+
                             </Link>
                         </li>
                     ))}
 
                     <li>
                         <a href="#contact" className="group">
-                            <h1 className="text-lg font-bold text-white/70 cursor-pointer">Contact Me</h1>
+                            <h1 className="text-lg text-white/70 hover:text-white/100 duration-600 ease-in-out cursor-pointer">Contact Me</h1>
                             <div className="relative">
-                                <div className="absolute w-2/3 h-1 transition-all duration-300 ease-out bg-orange-400 rounded-full group-hover:w-full"></div>
+                                <div className="absolute w-2/6 h-1 transition-all rounded-full duration-700 group-hover:bg-orange-400 group-hover:w-full"></div>
 
-                                <div className="mt-1 absolute w-1/3 h-1 transition-all duration-300 ease-out 
-                                bg-orange-600 rounded-full group-hover:w-full"></div>
+                                <div className="mt-1 absolute w-1/6 h-1 transition-all rounded-full duration-[1400ms]
+                                group-hover:bg-orange-600 group-hover:w-full"></div>
                             </div>
                         </a>
                     </li>
@@ -78,7 +87,7 @@ const Navbar = () => {
             >
                 <ul className="text-4xl font-semibold my-24 text-center space-y-8">
                     {navLinks.map((link, index) => (
-                        <li key={index}>
+                        <li key={index} className="hover:text-white/100 ease-in-out duration-200">
                             <Link href={link.path} onClick={closeNav}>
                                 {link.title}
                             </Link>
