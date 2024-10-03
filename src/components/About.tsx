@@ -25,10 +25,8 @@ const About = () => {
                             <h2 className='text-2xl font-bold text-white/80'>
                                 Education
                             </h2>
-                            <p className='text-lg text-white/70 mt-2'>
-                                Ontario Tech University <br />
-                                Bachelor of Science in Computer Science, Co-op, Data Science Specialization <br />
-                                Artificial Intelligence, Analysis and Design of Algorithms, Scientific Data Analysis
+                            <p className='text-md text-white/70 mt-2'>
+                                I am currently pursuing a degree in Computer Science with a specialization in Data Science at Ontario Tech University. My coursework includes Artificial Intelligence, Scientific Data Analysis, Web Development, and Algorithms.
                             </p>
                         </div>
                     </div>
@@ -40,8 +38,8 @@ const About = () => {
                     <div className='flex flex-row p-6'>
                         <Image src={pc} alt="pc" className="w-auto h-[130px]" />
                         <div className='flex flex-col mt-4'>
-                            <h2 className='text-2xl font-bold text-white/80'>xxxx</h2>
-                            <p className='text-lg text-white/70 mt-2'>xxxx</p>
+                            <h2 className='text-2xl font-bold text-white/80'>Problem Solving</h2>
+                            <p className='text-lg text-white/70 mt-2'>I tackle problems using a logical and systematic mindset</p>
                         </div>
                     </div>
                 </div>
@@ -50,10 +48,10 @@ const About = () => {
                 <div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                     <div className='flex flex-row p-6'>
-                        <Image src={card} alt="card" className="w-auto h-[130px]" />
+                        <Image src={card} alt="card" className="w-auto h-[110px]" />
                         <div className='flex flex-col mt-4'>
-                            <h2 className='text-2xl font-bold text-white/80'>xxxx</h2>
-                            <p className='text-lg text-white/70 mt-2'>xxxx</p>
+                            <h2 className='text-2xl font-bold text-white/80'>Experience</h2>
+                            <p className='text-md text-white/70 mt-2'>I have completed numerous projects in academic settings, collaborative group environments, and personal initiatives.</p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +62,10 @@ const About = () => {
                     <div className='flex flex-row p-6'>
                         <Image src={finance} alt="finance" className="w-auto h-[130px]" />
                         <div className='flex flex-col mt-4'>
-                            <h2 className='text-2xl font-bold text-white/80'>xxxx</h2>
-                            <p className='text-lg text-white/70 mt-2'>xxxx</p>
+                            <h2 className='text-2xl font-bold text-white/80'>Technical Skills</h2>
+                            <p className='text-md text-white/70 mt-2'>
+                                I developed multiple web applications with expertise in front-end and back-end development. My strong analytical skills allow me to interpret data using mathematical models, and I possess solid knowledge of data structures.
+                            </p>
                         </div>
                     </div>
                 </div>
