@@ -50,7 +50,7 @@ const Hero = () => {
             <Image
                 src={profilepic}
                 alt="profile picture"
-                className="w-auto h-auto mx-auto"
+                className="w-auto h-auto lg:w-[300px] lg:h-[300px] mx-auto relative top-[-20px]"
             />
 
 
