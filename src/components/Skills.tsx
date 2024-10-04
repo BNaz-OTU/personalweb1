@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPython, FaJava, FaGit, FaLinux, FaWindows, FaApple } from 'react-icons/fa';
-import { SiTypescript } from "react-icons/si";
+// import { SiTypescript } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { VscVscode } from "react-icons/vsc";
 import Cplusplus from "../assets/skills/cPlus.png";

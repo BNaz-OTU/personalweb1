@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from "next/image";
-import phone from "../assets/icons/phone.png";
-import mail from "../assets/icons/mail.png";
 
 const Contact = () => {
 
