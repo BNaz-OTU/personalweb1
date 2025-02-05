@@ -109,6 +109,15 @@ const projects = [
     git: "https://github.com/BNaz-OTU/bn_uber_clone",
     src: proj6,
   },
+  {
+    title: "Aora",
+    desc: "Developed a video-sharing platform using React Native, JavaScript, and Appwrite, allowing users to upload and share videos in a collaborative environment. Implemented secure email authentication and direct video uploads from the user's photo library, storing videos for easy retrieval. Designed a dynamic home screen with Nativewind and React Native, featuring an optimized video search for a seamless, user-friendly experience.",
+    devStack:
+      "React Native | Expo | Nativewind | Tailwind CSS | Animatable | Appwrite",
+    link: "https://github.com/BNaz-OTU/BN_ReactNative_proj_Aora",
+    git: "https://github.com/BNaz-OTU/BN_ReactNative_proj_Aora",
+    src: proj6,
+  },
 ];
 
 const Portfolio = () => {
@@ -139,9 +148,13 @@ const Portfolio = () => {
               }`}
             >
               <div className="space-y-4 max-w-[550px]">
-                <h2 className="text-7xl my-4 text-white/70">{`0${
-                  index + 1
+                <h2 className="text-7xl my-4 text-white/70">{`${
+                  index + 1 >= 10 ? `${index + 1}` : `0${index + 1}`
                 }`}</h2>
+
+                {/* <h2 className="text-7xl my-4 text-white/70">{`0${
+                  index + 1
+                }`}</h2> */}
                 <h2 className="text-4xl">{project.title}</h2>
                 <p className="text-md text-white/70 break-words">
                   {project.desc}
