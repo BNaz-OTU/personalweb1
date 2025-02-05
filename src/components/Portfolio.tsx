@@ -11,7 +11,8 @@ import proj6 from "../assets/projects/NewProj6_1.png";
 import proj7 from "../assets/projects/NewProj7.png";
 import proj8 from "../assets/projects/NewProj8.png";
 import proj9 from "../assets/projects/NewProj9.png";
-// import proj10 from "../assets/projects/NewProj10.png";
+import proj10 from "../assets/projects/onboarding3.png";
+import proj11 from "../assets/projects/cards.png";
 
 const projects = [
   {
@@ -107,7 +108,7 @@ const projects = [
       "TypeScript | React Native | Expo | Stripe | PostgreSQL | Tailwind CSS | Clerk | Google Cloud | zustand | Google Maps",
     link: "https://github.com/BNaz-OTU/bn_uber_clone",
     git: "https://github.com/BNaz-OTU/bn_uber_clone",
-    src: proj6,
+    src: proj10,
   },
   {
     title: "Aora",
@@ -116,7 +117,7 @@ const projects = [
       "React Native | Expo | Nativewind | Tailwind CSS | Animatable | Appwrite",
     link: "https://github.com/BNaz-OTU/BN_ReactNative_proj_Aora",
     git: "https://github.com/BNaz-OTU/BN_ReactNative_proj_Aora",
-    src: proj6,
+    src: proj11,
   },
 ];
 
@@ -165,7 +166,8 @@ const Portfolio = () => {
                 <Image
                   src={project.src}
                   alt={project.title}
-                  className="h-auto w-auto object-cover border rounded border-gray-700"
+                  //   className="h-auto w-auto object-cover border rounded border-gray-700"
+                  className="h-auto w-auto object-contain rounded "
                 />
               </div>
             </div>
