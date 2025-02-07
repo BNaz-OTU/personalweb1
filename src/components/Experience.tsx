@@ -5,7 +5,7 @@ import hp from "../assets/icons/hp.png";
 
 const Experience = () => {
   return (
-    <div className="max-w-[1200px] mx-auto mt-60" id="about">
+    <div className="max-w-[1200px] mx-auto mt-60" id="experience">
       <h1 className="text-orange-400 text-6xl max-w-[500px] mx-auto font-semibold my-12 mb-20 text-center">
         Work Experience
       </h1>

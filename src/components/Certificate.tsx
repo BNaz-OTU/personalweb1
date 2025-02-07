@@ -8,7 +8,7 @@ const Certificate = () => {
     //   Certificates
     // </h1>
 
-    <div className="max-w-[1200px] mx-auto mt-60" id="about">
+    <div className="max-w-[1200px] mx-auto mt-60">
       <h1 className="text-orange-400 text-6xl max-w-[320px] mx-auto font-semibold my-12 mb-20 text-center">
         Certificates
       </h1>
