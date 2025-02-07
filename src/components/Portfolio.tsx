@@ -13,6 +13,7 @@ import RetailProj from "../assets/projects/NewProj8.png";
 import TennisProj from "../assets/projects/NewProj9.png";
 import UberProj from "../assets/projects/onboarding3.png";
 import AoraProj from "../assets/projects/cards.png";
+import SnakeProj from "../assets/projects/snake.png";
 
 const projects = [
   {
@@ -54,9 +55,9 @@ const projects = [
     title: "AI Snake Game",
     desc: "Built the Snake game with Pygame, using Deep Q-Learning for autonomous gameplay. Developed the neural network in PyTorch and visualized the model's learning progression with Matplotlib.",
     devStack: "Python | PyTorch | NumPy | Pygame | Matplotlib",
-    link: "https://github.com/BNaz-OTU/ML_snake_game",
+    link: "https://youtu.be/-8Cl8hYUvx4",
     git: "https://github.com/BNaz-OTU/ML_snake_game",
-    src: RetailProj,
+    src: SnakeProj,
   },
   {
     title: "Uber Clone",
@@ -124,7 +125,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <div
-      className="text-white bg-gradient-to-b from-black to-[#381a5f] py-[10px] mt-40"
+      className="text-white bg-gradient-to-b from-black to-[#381a5f] py-[10px] mt-60"
       id="portfolio"
     >
       <h1 className="text-orange-400 text-6xl max-w-[320px] mx-auto font-semibold my-12 text-center">
