@@ -163,7 +163,7 @@ const Portfolio = () => {
                 </p>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center max-w-[550px]">
                 <Image
                   src={project.src}
                   alt={project.title}
