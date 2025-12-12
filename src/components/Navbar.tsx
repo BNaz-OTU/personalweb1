@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
           ))}
 
-          <li>
+          {/* <li>
             <a href="#contact" className="group">
               <h1 className="text-lg text-white/70 hover:text-white/100 duration-600 ease-in-out cursor-pointer">
                 Contact Me
@@ -75,7 +75,7 @@ const Navbar = () => {
                 ></div>
               </div>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
