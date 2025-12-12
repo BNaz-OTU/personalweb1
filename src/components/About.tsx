@@ -7,8 +7,6 @@ import otu from "../assets/icons/otu.png";
 import data from "../assets/icons/data.png";
 import ai from "../assets/icons/ai_icon.png";
 import ml from "../assets/icons/ml.png";
-import card from "../assets/icons/card.png";
-import finance from "../assets/icons/finance.png";
 
 const About = () => {
   return (
