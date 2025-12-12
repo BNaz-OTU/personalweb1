@@ -29,6 +29,12 @@ import Gcloud from "../assets/skills/Gcloud.png";
 import pytorch from "../assets/skills/pytorch.png";
 import opencv from "../assets/skills/opencv.png";
 import microsoft_office from "../assets/skills/microsoft-office.png";
+import aws from "../assets/skills/aws.png";
+import azure from "../assets/skills/azure.png";
+import docker from "../assets/skills/docker.png";
+import openshift from "../assets/skills/openshift.png";
+import kubernetes from "../assets/skills/kubernetes.png";
+import vault from "../assets/skills/vault.png";
 
 // const Cplus = <img src="../assets/cPlus.png" alt="C++ Icon"></img>
 
@@ -102,6 +108,30 @@ const skillIcons = [
       <Image src={microsoft_office} className="w-auto h-[100px] md:h-[140px]" />
     ),
     label: "Microsoft Office",
+  },
+  {
+    icon: <Image src={aws} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "Amazon Web Services",
+  },
+  {
+    icon: <Image src={azure} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "Microsoft Azure",
+  },
+  {
+    icon: <Image src={docker} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "Docker",
+  },
+  {
+    icon: <Image src={openshift} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "OpenShift Container Platform",
+  },
+  {
+    icon: <Image src={kubernetes} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "Kubernetes",
+  },
+  {
+    icon: <Image src={vault} className="w-auto h-[100px] md:h-[140px]" />,
+    label: "HashiCorp Vault",
   },
 ];
 
