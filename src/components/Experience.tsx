@@ -78,7 +78,7 @@ const Experience = () => {
 
               <div className="pb-1.5 max-md:pb-7 max-sm:pb-4">
                 <h2 className="text-sm font-bold italic text-white/80">
-                  DevOps Engineer Intern
+                  Software Engineer Intern
                 </h2>
               </div>
 
